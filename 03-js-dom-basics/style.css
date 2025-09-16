@@ -1,0 +1,118 @@
+        body {
+            margin-bottom: 20px;   
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: "Snell Roundhand";
+            text-align: center;
+        }
+
+        .title {
+            text-align: center;
+            text-decoration: overline black;
+            text-shadow: 0 0 10px whitesmoke;
+            font-size: 80px;
+            color:gray;
+            background: url('titleimage.jpg') no-repeat center;
+            background-size: auto;
+            background-blend-mode: lighten; 
+            font-family: "Snell Roundhand";
+            margin-left: 30px;
+            margin-right: 30px;
+            border-radius: 15px; 
+            border-bottom: 2px solid black;
+        }
+
+        a {
+            color: black;
+            font-size: 30px;
+            font-family: "Snell Roundhand";
+            margin-left: 30px;
+            margin-right: 30px;
+            text-decoration:underline grey;
+            cursor: grab;
+        }
+    a:hover, .title:hover, header:hover, p:hover, button:hover, nav:hover {
+    color: gold;
+    transition: color 0.3s;
+}
+
+.hover-red a:hover, .hover-red .title:hover, .hover-red header:hover,
+.hover-red p:hover, .hover-red button:hover, .hover-red nav:hover {
+    color: red;
+    transition: color 0.3s;
+}
+
+     
+        header {
+            background-color: transparent;
+            font-size: xx-large;
+            font-family: "Snell Roundhand";
+            color: black;
+            align-items: center;
+            padding: 20px;
+        }
+
+        p {
+             display: inline-block;       
+             border: 5px inset lightgrey; 
+             border-radius: 10px;
+             background-color: whitesmoke;
+             padding: 10px 20px;         
+             font-size: 25px;
+             font-family: "Snell Roundhand";
+            color: black;
+             margin: 20px auto;     
+             text-align: center;
+             padding: 20px;
+            }     
+        .image-row {
+            display: flex;
+            justify-content: center;   
+            align-items: center;      
+             gap: 20px;
+        }
+        .image-row img {
+        width: 200px;
+        border-radius: 10px;
+        border: 5px solid lightgrey;    
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+   footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;           
+    background-color: transparent;
+    font-size: small;
+    font-family: "Snell Roundhand";
+    color: black;
+    text-align: center;
+    line-height: 20px;
+    z-index: 1000;
+}
+nav {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    gap: 15px;                   
+    padding: 10px;               
+    background-color: transparent; 
+}
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    font-family: "Snell Roundhand";
+    color: black;
+    background-color: lightgrey;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s;}
+
