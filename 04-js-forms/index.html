@@ -1,0 +1,36 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1> Rsvp Form</h1>
+     <form id = "RSVPForm">
+        <label for = "name">Name:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for ="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="number" name="phone" required>
+        <br>
+        <label for="plusone">Plus one?</label>
+        <input type="checkbox" id="plusone">
+        <br>
+        <label for = "comments">Comments & Concerns(Dietary restrictions)</label>
+        <textarea id ="comments"></textarea>
+        <br>
+    
+        <button type = "submit" id="add Applicant">Submit</button>
+     </form>
+     <section>
+        <h2>Thank you for your submission!</h2>
+        <p>We look forward to celebrating with you.</p>
+        <img src="proposalring.png">
+      </section>
+      <div id="all-applicants"></div>
+
+</body>
+

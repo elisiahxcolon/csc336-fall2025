@@ -1,0 +1,79 @@
+img{
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+  
+
+body{
+  background-image: url("two.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  color: burlywood;
+  text-align: center;
+  text-shadow: black 2px 2px 4px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 100px;
+  margin: 10px auto;         
+  border: burlywood solid 5px;
+  border-radius: 10px;
+  border-top: 0px;
+  display: table;             
+}
+h2{
+  color: burlywood;
+  text-align: center;
+  text-shadow: black 2px 2px 4px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 50px;
+  margin: 10px auto;         
+  border: burlywood solid 5px;
+  border-radius: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  display: table;          
+}
+  p{  
+    color: burlywood;
+    text-align: center;
+    text-shadow: black 2px 2px 4px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    margin: 10px auto;         
+    border-right: 0px;}
+form {
+      cursor: pointer;
+    font-family: "Brush Script MT", cursive;
+    font-size: 30px;
+    color: white;
+    text-shadow: black 1px 1px 2px;
+    text-align: center;
+
+}
+input ,textarea{
+  cursor: pointer;
+  text-shadow: black 5px 5px 2px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 30px;
+  color:burlywood;
+  text-shadow:black 1px 1px 2px;
+  background-color: white;
+  border: burlywood solid 2px;
+  
+}
+button{
+  font-size: 30px;
+  margin: 50px;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Brush Script MT", cursive;
+  color:burlywood;
+    border: burlywood solid 2px;
+}
