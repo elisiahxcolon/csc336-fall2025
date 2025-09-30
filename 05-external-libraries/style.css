@@ -1,0 +1,66 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow:
+  0 0 5px red,
+  0 0 10px red,
+  0 0 20px red,
+  0 0 40px red,
+  0 0 80px red;
+    color:black;
+
+    border: red solid 5px;
+    border-style: groove;
+    border-radius: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+}
+
+nav{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow:
+  0 0 5px red,
+  0 0 10px red,
+  0 0 20px red,
+  0 0 40px red,
+  0 0 80px red;
+    color:black;
+}
+
+#intro{
+    background-color: black;
+    border:solid red 5px;
+    font-size: 35px;
+    color:red;
+    font-family: "Brush Script MT", cursive;
+    text-align: center;
+}
+#menu{
+    font-size: 35px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    border:solid red 5px; 
+    border-radius: 10px;
+}
+#hours{
+    background-color: black;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Brush Script MT", cursive;
+    color: red;
+    border: solid red 5px;
+    border-radius: 10px;
+
+}
