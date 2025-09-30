@@ -1,3 +1,4 @@
+// original bob https://openprocessing.org/sketch/2710379
 function setup() {
   createCanvas(1500, 500);
   background(0); 
@@ -117,3 +118,4 @@ function drawBob() {
   fill("blue"); 
   rect(1320, 400, 155, 100);
 }
+
