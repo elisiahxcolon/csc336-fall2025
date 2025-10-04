@@ -1,26 +1,93 @@
-let demonSlayerbutton = document.querySelector("#fetchButtonDemonSlayer");
-let zenQuotesbutton  = document.querySelector("#fetchButtonZenQuotes");
+// Get a reference to the button.
+let button = document.querySelector("#callbackDemoButton");
 
-demonSlayerbutton.addEventListener("click", fetchDemonSlayerCharacters);
-zenQuotesbutton.addEventListener("click", fetchZenQuotes);
+// Example 1. Creating a named function and passing it in to the
+// event listener.
+//
+// function clickEventHappened(e) {
+//     getAndDisplayDogImage();
+// }
+// button.addEventListener("click", clickEventHappened);
 
-async function fetchDemonSlayerCharacters() {
-    let demonSlayerResponse = await fetch("https://www.demonslayer-api.com/api/v1/characters");
-    let demonSlayerData = await demonSlayerResponse.json();
-    console.log(demonSlayerData);
+// Example 2. Using an anonymous arrow function with the more verbose syntax
+// button.addEventListener("click", (e) => { getAndDisplayDogImage() });
 
-    let demonSlayerInfo = document.createElement("img");
-    demonSlayerInfo.width = 200;
-    demonSlayerInfo.src = demonSlayerData.content[0].img;
-    document.querySelector("#characterContainer").appendChild(demonSlayerInfo);
+// Example 3. Using an anonymous arrow function with the more minimal syntax
+button.addEventListener("click", e => getAndDisplayDogImage() );
+
+
+
+// Just for fun, we will store the time when the request is made in
+// this variable, and then when the request is complete we will print
+// out how much time has passed.
+let timeBeforeRequest;
+
+/*
+// This commented chunk shows one example of how to make a fetch request
+// to a server, and how to assign functions to be fulfilled when a request
+// is complete.
+timeBeforeRequest = Date.now();
+let dogRequest = fetch("https://dog.ceo/api/breeds/image/random");
+dogRequest
+    .then( (dogResponse) => { return dogResponse.json() })
+    .then( (dogData) => { 
+        let timePassed = Date.now() - timeBeforeRequest;
+        console.log(`It took ${timePassed} for the request.`);
+        console.log(dogData);
+        let dogImageHTML = document.createElement("img");
+        dogImageHTML.width = 200;
+        dogImageHTML.src = dogData.message;
+        document.querySelector("#dogDiv").appendChild(dogImageHTML);
+    })
+    .catch( () => console.log("something went wrong") );
+*/
+
+
+// This example is exactly the same as the above, but uses the async/await
+// keywords (helpful "syntactic sugar") to make it more legible.
+async function getAndDisplayDogImage() {
+    timeBeforeRequest = Date.now();
+
+    let dogResponse = await fetch("https://dog.ceo/api/breeds/image/random");
+    let dogData = await dogResponse.json();
+
+    let timePassed = Date.now() - timeBeforeRequest;
+    console.log(`It took ${timePassed} for the request.`);
+    console.log(dogData);
+    let dogImageHTML = document.createElement("img");
+    dogImageHTML.width = 200;
+    dogImageHTML.src = dogData.message;
+    document.querySelector("#dogDiv").appendChild(dogImageHTML);
 }
 
-async function fetchZenQuotes() {
-    let response = await fetch("https://zenquotes.io/api/random");
-    let data = await response.json();
-    console.log(data);
 
-    let quoteElement = document.createElement("p");
-    quoteElement.textContent = `"${data[0].q}" — ${data[0].a}`;
-    document.querySelector("#quoteContainer").appendChild(quoteElement);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// async function getTodo() {
+//   try {
+//     const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+//     const data = await response.json();
+//     console.log("Data received:", data);
+//   } catch (error) {
+//     console.error("Error:", error);
+//   }
+// }
+
+// getTodo();
