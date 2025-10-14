@@ -1,0 +1,183 @@
+{
+    "regions": [
+        {
+            "name": "Los Santos",
+            "climate": "hot",
+            "towns": [
+                {
+                    "name": "Strawberry",
+                    "population": 14500,
+                    "notable_people": [
+                        {
+                            "name": "Marcus Bell",
+                            "role": "Community Organizer",
+                            "weapon": {
+                                "type": "pistol",
+                                "rarity": "common"
+                            },
+                            "items": [
+                                "notebook",
+                                "cell phone",
+                                "bicycle"
+                            ]
+                        },
+                        {
+                            "name": "Lena Ortiz",
+                            "role": "Local Artist",
+                            "weapon": {
+                                "type": "katana",
+                                "rarity": "uncommon"
+                            },
+                            "items": [
+                                "paintbrush",
+                                "sketchbook",
+                                "camera"
+                            ]
+                        },
+                        {
+                            "name": "Andre Collins",
+                            "role": "Small Business Owner",
+                            "weapon": {
+                                "type": "rifle",
+                                "rarity": "uncommon"
+                            },
+                            "items": [
+                                "laptop",
+                                "car keys",
+                                "business permit"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Vinewood",
+                    "population": 32500,
+                    "notable_people": [
+                        {
+                            "name": "Samantha Blake",
+                            "role": "Film Director",
+                            "weapon": {
+                                "type": "pistol",
+                                "rarity": "common"
+                            },
+                            "items": [
+                                "camera",
+                                "script",
+                                "studio pass"
+                            ]
+                        },
+                        {
+                            "name": "Ricky Vaughn",
+                            "role": "Actor",
+                            "weapon": {
+                                "type": "rpg",
+                                "rarity": "uncommon"
+                            },
+                            "items": [
+                                "sunglasses",
+                                "sports car",
+                                "award trophy"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rockford Hills",
+                    "population": 28100,
+                    "notable_people": [
+                        {
+                            "name": "Evelyn Moore",
+                            "role": "Fashion Designer",
+                            "weapon": {
+                                "type": "pistol",
+                                "rarity": "common"
+                            },
+                            "items": [
+                                "sketchbook",
+                                "fabric samples",
+                                "tailor’s scissors"
+                            ]
+                        },
+                        {
+                            "name": "Charles Kent",
+                            "role": "Real Estate Agent",
+                            "weapon": {
+                                "type": "rifle",
+                                "rarity": "uncommon"
+                            },
+                            "items": [
+                                "briefcase",
+                                "luxury watch",
+                                "property listings"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Little Seoul",
+                    "population": 19800,
+                    "notable_people": [
+                        {
+                            "name": "Minji Park",
+                            "role": "Restaurant Owner",
+                            "weapon": {
+                                "type": "pistol",
+                                "rarity": "common"
+                            },
+                            "items": [
+                                "chef’s knife",
+                                "apron",
+                                "menu samples"
+                            ]
+                        },
+                        {
+                            "name": "Daniel Cho",
+                            "role": "Music Producer",
+                            "weapon": {
+                                "type": "katana",
+                                "rarity": "uncommon"
+                            },
+                            "items": [
+                                "headphones",
+                                "microphone",
+                                "mixing console"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Downtown",
+                    "population": 40500,
+                    "notable_people": [
+                        {
+                            "name": "Victor Ramirez",
+                            "role": "Bank Manager",
+                            "weapon": {
+                                "type": "pistol",
+                                "rarity": "common"
+                            },
+                            "items": [
+                                "laptop",
+                                "briefcase",
+                                "security badge"
+                            ]
+                        },
+                        {
+                            "name": "Hannah Lee",
+                            "role": "Lawyer",
+                            "weapon": {
+                                "type": "rifle",
+                                "rarity": "uncommon"
+                            },
+                            "items": [
+                                "law books",
+                                "tablet",
+                                "business card case"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
