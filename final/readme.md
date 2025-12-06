@@ -1,6 +1,6 @@
 Howdy!
 
-Render link: 
+Render link: https://csc336-fall2025-1uq4.onrender.com
 
 I will use this read me as a journal on my progress but also will certainly give a link to resources and goals! i did not include real photos of my fiance and myself 
 for privacy reasons but this certainly will be the template for the real website! The placeholder is gifs!
