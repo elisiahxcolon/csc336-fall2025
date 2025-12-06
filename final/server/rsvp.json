@@ -1,0 +1,29 @@
+[
+  {
+    "firstName": "Elisiah",
+    "lastName": "Colon",
+    "email": "colonvia2345@gmail.com",
+    "phone": "9783763206",
+    "numPeople": 1,
+    "allergies": "Red meat.",
+    "additionalInfo": "I want to bring two guests. Please let me know of this is possible! "
+  },
+  {
+    "firstName": "Alex ",
+    "lastName": "Jones",
+    "email": "alexjones34@gmail.com",
+    "phone": "9678905656",
+    "numPeople": 1,
+    "allergies": "red meat.",
+    "additionalInfo": "I want to come but only if you can make room for my grandma."
+  },
+  {
+    "firstName": "John",
+    "lastName": "Kelly",
+    "email": "johnkellyrocks@gmail.com",
+    "phone": "2345678901",
+    "numPeople": 1,
+    "allergies": "",
+    "additionalInfo": ""
+  }
+]
